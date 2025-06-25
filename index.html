@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="P.O.V.N - Intelligent Optical Shop Management System for managing clients, inventory, appointments, and insurance claims efficiently.">
+    <title>P.O.V.N - Optical Shop Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" class="logo-link">
+                        <h2>P.O.V.N</h2>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link" aria-current="page" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="features.html" class="nav-link" data-en="Features" data-ar="المميزات">Features</a>
+                    <a href="pricing.html" class="nav-link" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+                    <a href="contact.html" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                </div>
+            <div class="nav-controls">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <span id="lang-text">EN</span>
+                </button>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="lens-shape lens-1"></div>
+            <div class="lens-shape lens-2"></div>
+            <div class="lens-shape lens-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-card">
+                <h1 class="hero-title" data-en="Intelligent Optical Shop Management System" data-ar="نظام إدارة متاجر البصريات الذكي">Intelligent Optical Shop Management System</h1>
+                <p class="hero-subtitle" data-en="P.O.V.N simplifies managing your store: clients, inventory, appointments, reports, and insurance." data-ar="يبسط P.O.V.N إدارة متجرك: العملاء والمخزون والمواعيد والتقارير والتأمين.">P.O.V.N simplifies managing your store: clients, inventory, appointments, reports, and insurance.</p>
+                <button class="cta-button" data-en="Try the Demo" data-ar="جرب العرض التوضيحي">Try the Demo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-en="Key Features" data-ar="المميزات الرئيسية">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Client Management" data-ar="إدارة العملاء">Client Management</h3>
+                    <p class="feature-text" data-en="Record patient data, prescriptions, and visit history." data-ar="تسجيل بيانات المرضى والوصفات وتاريخ الزيارات.">Record patient data, prescriptions, and visit history.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Appointment Booking" data-ar="حجز المواعيد">Appointment Booking</h3>
+                    <p class="feature-text" data-en="Schedule and manage eye exams and consultations efficiently." data-ar="جدولة وإدارة فحوصات العيون والاستشارات بكفاءة.">Schedule and manage eye exams and consultations efficiently.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Stock Management" data-ar="إدارة المخزون">Stock Management</h3>
+                    <p class="feature-text" data-en="Track frames, lenses, and accessories inventory in real-time." data-ar="تتبع مخزون الإطارات والعدسات والإكسسوارات في الوقت الفعلي.">Track frames, lenses, and accessories inventory in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Insurance Support" data-ar="دعم التأمين">Insurance Support</h3>
+                    <p class="feature-text" data-en="Process insurance claims and manage coverage details seamlessly." data-ar="معالجة مطالبات التأمين وإدارة تفاصيل التغطية بسلاسة.">Process insurance claims and manage coverage details seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-en="How It Works" data-ar="كيف يعمل">How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3 class="step-title" data-en="Add Client" data-ar="إضافة عميل">Add Client</h3>
+                    <p class="step-text" data-en="Add a new client or import existing data" data-ar="إضافة عميل جديد أو استيراد البيانات الموجودة">Add a new client or import existing data</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="step-title" data-en="Book Exam" data-ar="حجز فحص">Book Exam</h3>
+                    <p class="step-text" data-en="Schedule an eye examination appointment" data-ar="جدولة موعد فحص العين">Schedule an eye examination appointment</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-glasses"></i>
+                    </div>
+                    <h3 class="step-title" data-en="Select Products" data-ar="اختيار المنتجات">Select Products</h3>
+                    <p class="step-text" data-en="Choose lenses and frames from inventory" data-ar="اختيار العدسات والإطارات من المخزون">Choose lenses and frames from inventory</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="step-title" data-en="Process Payment" data-ar="معالجة الدفع">Process Payment</h3>
+                    <p class="step-text" data-en="Handle insurance or direct payment" data-ar="التعامل مع التأمين أو الدفع المباشر">Handle insurance or direct payment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Preview Section -->
+    <section class="product-preview">
+        <div class="container">
+            <h2 class="section-title" data-en="Product Preview" data-ar="معاينة المنتج">Product Preview</h2>
+            <div class="preview-grid">
+                <div class="preview-card">
+                    <div class="preview-image">
+                        <div class="mockup-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <h3 class="preview-title" data-en="Dashboard" data-ar="لوحة التحكم">Dashboard</h3>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-image">
+                        <div class="mockup-placeholder">
+                            <i class="fas fa-table"></i>
+                        </div>
+                    </div>
+                    <h3 class="preview-title" data-en="Clients Table" data-ar="جدول العملاء">Clients Table</h3>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-image">
+                        <div class="mockup-placeholder">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                    </div>
+                    <h3 class="preview-title" data-en="Inventory View" data-ar="عرض المخزون">Inventory View</h3>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-image">
+                        <div class="mockup-placeholder">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                    </div>
+                    <h3 class="preview-title" data-en="Calendar" data-ar="التقويم">Calendar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call to Action Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-en="Start optimizing your optical business today!" data-ar="ابدأ في تحسين أعمال البصريات الخاصة بك اليوم!">Start optimizing your optical business today!</h2>
+                <p class="cta-subtitle" data-en="Register now for free, no credit card needed." data-ar="سجل الآن مجاناً، لا حاجة لبطاقة ائتمان.">Register now for free, no credit card needed.</p>
+                <button class="cta-button" data-en="Get Started" data-ar="ابدأ الآن">Get Started</button>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container"></div>
+
+    <!-- Database Integration Placeholder -->
+    <div id="database-integration"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" class="footer-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="#" class="footer-link" data-en="Features" data-ar="المميزات">Features</a>
+                    <a href="#" class="footer-link" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+                    <a href="#" class="footer-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                    <a href="#" class="footer-link" data-en="FAQ" data-ar="الأسئلة الشائعة">FAQ</a>
+                </div>
+                <div class="footer-controls">
+                    <button class="lang-toggle" onclick="toggleLanguage()">
+                        <span id="footer-lang-text">EN</span>
+                    </button>
+                    <button class="theme-toggle" onclick="toggleTheme()">
+                        <i class="fas fa-moon" id="footer-theme-icon"></i>
+                    </button>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" data-en="© 2025 P.O.V.N. All rights reserved." data-ar="© 2025 P.O.V.N. جميع الحقوق محفوظة.">© 2025 P.O.V.N. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

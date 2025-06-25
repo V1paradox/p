@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact P.O.V.N Optical Shop Management System. Get in touch with our team for support, inquiries, or to learn more about our solutions.">
+    <title>Contact Us - P.O.V.N Optical Shop Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Top Navigation Bar -->
+    <header>
+        <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <h2>P.O.V.N</h2>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="features.html" class="nav-link" data-en="Features" data-ar="المميزات">Features</a>
+                <a href="pricing.html" class="nav-link" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+                <a href="contact.html" class="nav-link active" aria-current="page" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <span id="lang-text">EN</span>
+                </button>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-background">
+            <div class="pattern-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-hero-title" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h1>
+                <p class="contact-hero-subtitle" data-en="Have questions or feedback? We're here to help." data-ar="هل لديك أسئلة أو ملاحظات؟ نحن هنا للمساعدة.">Have questions or feedback? We're here to help.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h2 class="form-title" data-en="Send us a Message" data-ar="أرسل لنا رسالة">Send us a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label" data-en="Full Name" data-ar="الاسم الكامل">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required data-en-placeholder="Enter your full name" data-ar-placeholder="أدخل اسمك الكامل" placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label" data-en="Email Address" data-ar="عنوان البريد الإلكتروني">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" required data-en-placeholder="Enter your email address" data-ar-placeholder="أدخل عنوان بريدك الإلكتروني" placeholder="Enter your email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label" data-en="Subject" data-ar="الموضوع">Subject</label>
+                                <select id="subject" name="subject" class="form-select" required>
+                                    <option value="" data-en="Select a subject" data-ar="اختر موضوعاً">Select a subject</option>
+                                    <option value="general" data-en="General Inquiry" data-ar="استفسار عام">General Inquiry</option>
+                                    <option value="support" data-en="Technical Support" data-ar="الدعم الفني">Technical Support</option>
+                                    <option value="sales" data-en="Sales Question" data-ar="سؤال المبيعات">Sales Question</option>
+                                    <option value="feedback" data-en="Feedback" data-ar="ملاحظات">Feedback</option>
+                                    <option value="partnership" data-en="Partnership" data-ar="شراكة">Partnership</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label" data-en="Message" data-ar="الرسالة">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" required data-en-placeholder="Tell us how we can help you..." data-ar-placeholder="أخبرنا كيف يمكننا مساعدتك..." placeholder="Tell us how we can help you..."></textarea>
+                            </div>
+                            <button type="submit" class="form-submit-btn" data-en="Send Message" data-ar="إرسال الرسالة">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h2 class="info-title" data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</h2>
+                        <p class="info-description" data-en="We're here to help you with any questions about P.O.V.N. Reach out through any of these channels." data-ar="نحن هنا لمساعدتك في أي أسئلة حول P.O.V.N. تواصل معنا من خلال أي من هذه القنوات.">We're here to help you with any questions about P.O.V.N. Reach out through any of these channels.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3 class="method-title" data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                                    <p class="method-value">paradoxh1v1@gmail.com</p>
+                                    <p class="method-description" data-en="We typically respond within 24 hours" data-ar="نرد عادة خلال 24 ساعة">We typically respond within 24 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3 class="method-title" data-en="Phone" data-ar="الهاتف">Phone</h3>
+                                    <p class="method-value">+212 607 777 094</p>
+                                    <p class="method-description" data-en="Monday - Friday, 9 AM - 6 PM (GMT)" data-ar="الاثنين - الجمعة، 9 صباحاً - 6 مساءً (GMT)">Monday - Friday, 9 AM - 6 PM (GMT)</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3 class="method-title" data-en="Location" data-ar="الموقع">Location</h3>
+                                    <p class="method-value" data-en="beni mellal, Morocco" data-ar="الدار البيضاء، المغرب">Casablanca, Morocco</p>
+                                    <p class="method-description" data-en="Visit us or schedule a meeting" data-ar="قم بزيارتنا أو حدد موعداً">Visit us or schedule a meeting</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-section">
+                            <h3 class="social-title" data-en="Follow Us" data-ar="تابعنا">Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3 data-en="Interactive Map" data-ar="خريطة تفاعلية">Interactive Map</h3>
+                            <p data-en="Map integration coming soon" data-ar="تكامل الخريطة قريباً">Map integration coming soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Response Time CTA -->
+    <section class="response-cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h2 class="cta-title" data-en="We'll get back to you within 24 hours." data-ar="سنرد عليك خلال 24 ساعة.">We'll get back to you within 24 hours.</h2>
+                <p class="cta-subtitle" data-en="Our team is committed to providing quick and helpful responses to all inquiries." data-ar="فريقنا ملتزم بتقديم ردود سريعة ومفيدة لجميع الاستفسارات.">Our team is committed to providing quick and helpful responses to all inquiries.</p>
+                <a href="index.html" class="cta-button" data-en="Return to Homepage" data-ar="العودة للصفحة الرئيسية">Return to Homepage</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container"></div>
+
+    <!-- Database Integration Placeholder -->
+    <div id="database-integration"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="features.html" class="footer-link" data-en="Features" data-ar="المميزات">Features</a>
+                    <a href="pricing.html" class="footer-link" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+                    <a href="contact.html" class="footer-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                    <a href="#" class="footer-link" data-en="Privacy" data-ar="الخصوصية">Privacy</a>
+                </div>
+                <div class="footer-controls">
+                    <button class="lang-toggle" onclick="toggleLanguage()">
+                        <span id="footer-lang-text">EN</span>
+                    </button>
+                    <button class="theme-toggle" onclick="toggleTheme()">
+                        <i class="fas fa-moon" id="footer-theme-icon"></i>
+                    </button>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" data-en="© 2025 P.O.V.N. All rights reserved." data-ar="© 2025 P.O.V.N. جميع الحقوق محفوظة.">© 2025 P.O.V.N. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+            
+            // Simulate form submission
+            const submitBtn = this.querySelector('.form-submit-btn');
+            const originalText = submitBtn.innerHTML;
+            
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> <span>Sending...</span>';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+                this.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
